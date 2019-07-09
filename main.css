@@ -4,6 +4,7 @@ body{
     color: white;
     font-family: 'Lato', sans-serif;
 }
+
 /* STAMP logo */
 #logo{
 	height: 40px;
@@ -11,7 +12,7 @@ body{
 	padding-left: 50px;
 }
 
-/* HEADER MENU */
+/*** HEADER MENU ***/
 .header {
     display: table;
     width: 100%;
@@ -20,8 +21,7 @@ body{
  }
  .menu{
    float: right;
-   padding-right: 40px;
- 
+   padding-right: 40px; 
 }
 .menu a{
   color: white;
@@ -41,14 +41,14 @@ body{
   height: 3px;
   background-color: white;
   margin: 4px 0;
-
 }
 #icon{
-    float: right;
-    padding-right: 40px;
+  float: right;
+  padding-right: 40px;
 }
 
-/* MAIN CONTENTS */
+/*** MAIN CONTENTS ***/
+
 /* SET UP GRID SYSTEM */
 .grid-container {
   display: grid;
@@ -101,22 +101,17 @@ button {
   opacity: 0.9;
   border-radius: 0px 0px 5px 5px ;
 }
-
 button:hover {
   opacity: 1;
 }
-
 /* Signup button */
 .signupbtn {
   width: 384px;
 }
-
 /* Add padding to container elements */
 .container {
   padding: 16px;
-
 }
-
 /* Clear floats */
 .clearfix::after {
   content: "";
@@ -124,7 +119,7 @@ button:hover {
   display: table;
 }
 
-/* FONTS */
+/*** FONTS ***/
 h1{
 	font-size: 50px;
 	text-align: left;
@@ -145,7 +140,7 @@ h3{
 	line-height: 1.8;
 }
 
-/* FOOTER */
+/*** FOOTER ***/
 .copyright{
     font-size: 11px;
     margin-left: 70px;
@@ -154,8 +149,8 @@ h3{
     bottom: 10px;
 }
 .footer-menu{
-	float: left;
-	padding-right: 40px;
+    float: left;
+    padding-right: 40px;
 }
 .footer-menu a{
   color: white;
@@ -171,11 +166,11 @@ h3{
   transform: translate(-0%, 0%);
 }
 
-/* FOR SMALER SCREEN */
+/*** FOR SMALER SCREEN ***/
 @media screen and (max-width: 768px) {
 .signupbtn {
     width: 384px;
-  }
+}
 /* GRID */
 .grid-container {
   padding: 10px;
@@ -191,22 +186,22 @@ h3{
   position: relative;
   transform: translate(-10%, 0%);
 }
-/* TOP NAV */
+	
+/*** HEADER NAV ***/
 #logo{
-	height: 40px;
-	width: auto;
-	padding-left: 30px;
+  height: 40px;
+  width: auto;
+  padding-left: 30px;
 }
-
 .topnav{
   display:none;
 }
 
-/* FOOTER */
+/*** FOOTER ***/
 .copyright{
-    font-size: 11px;
-    text-align: center;
-    position: relative;
+  font-size: 11px;
+  text-align: center;
+  position: relative;
 }
 .footer-nav{
   float: none;
@@ -216,8 +211,8 @@ h3{
   left: 20%;
 }
 .footer-menu{
-	float: left;
-	padding-right: 20px;
+  float: left;
+  padding-right: 20px;
 }
 .footer-menu a{
   color: white;
@@ -225,7 +220,8 @@ h3{
   font-family: 'Lato', sans-serif;
   text-decoration: none;
 }
-/* FONTS */
+	
+/*** FONTS ***/
 h1{
 	font-size: 35px;
 	text-align: left;
