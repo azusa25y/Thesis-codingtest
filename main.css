@@ -1,0 +1,245 @@
+body{
+    background-image: url("background.png");
+    background-size: 100% auto;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+/* STAMP logo */
+#logo{
+	height: 40px;
+	width: auto;
+	padding-left: 50px;
+}
+
+/* HEADER MENU */
+.header {
+    display: table;
+    width: 100%;
+    padding-top: 30px;
+    position: relative;
+ }
+ .menu{
+   float: right;
+   padding-right: 40px;
+ 
+}
+.menu a{
+  color: white;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+}
+.topnav{
+  float: none;
+  position: absolute;
+  top: 50px;
+  left: 40%;
+  transform: translate(-20%, -50%);
+}
+.menu-icon{
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+
+}
+#icon{
+    float: right;
+    padding-right: 40px;
+}
+
+/* MAIN CONTENTS */
+/* SET UP GRID SYSTEM */
+.grid-container {
+  display: grid;
+  padding: 10px;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 100px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 350px;
+  padding: 15px;
+  display: inline-block;
+  background: transparent;
+  border-color: lightgray;
+  border-bottom: none;
+  
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: lightgray;
+  outline: none;
+}
+input::placeholder {
+  color: lightgray;
+  opacity: 1.0;
+}
+input:first-child{
+  border-radius: 5px 5px 0px 0px;
+}
+/* Set a style for all buttons */
+button {
+  background-color: #1E90FF;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 350px;
+  opacity: 0.9;
+  border-radius: 0px 0px 5px 5px ;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Signup button */
+.signupbtn {
+  width: 384px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* FONTS */
+h1{
+	font-size: 50px;
+	text-align: left;
+}
+h2{
+	font-size: 17px;
+	font-weight: normal;
+	text-align: left;
+}
+h3{
+	font-size: 13px;
+	font-weight: normal;
+	text-align: center;
+}
+#agreement{
+	font-size: 11px;
+	text-align: center;
+	line-height: 1.8;
+}
+
+/* FOOTER */
+.copyright{
+    font-size: 11px;
+    margin-left: 70px;
+    float: none;
+    position: absolute;
+    bottom: 10px;
+}
+.footer-menu{
+	float: left;
+	padding-right: 40px;
+}
+.footer-menu a{
+  color: white;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+}
+.footer-nav{
+  float: none;
+  position: absolute;
+  bottom: 10px;
+  right: 70px;
+  transform: translate(-0%, 0%);
+}
+
+/* FOR SMALER SCREEN */
+@media screen and (max-width: 768px) {
+.signupbtn {
+    width: 384px;
+  }
+/* GRID */
+.grid-container {
+  padding: 10px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+  grid-template-columns: 1fr;
+}
+#rightcolumn{
+  width: 100%;
+  float: none;
+  position: relative;
+  transform: translate(-10%, 0%);
+}
+/* TOP NAV */
+#logo{
+	height: 40px;
+	width: auto;
+	padding-left: 30px;
+}
+
+.topnav{
+  display:none;
+}
+
+/* FOOTER */
+.copyright{
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+}
+.footer-nav{
+  float: none;
+  position: relative;
+  text-align: center;
+  width: 80%;
+  left: 20%;
+}
+.footer-menu{
+	float: left;
+	padding-right: 20px;
+}
+.footer-menu a{
+  color: white;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+}
+/* FONTS */
+h1{
+	font-size: 35px;
+	text-align: left;
+}
+h2{
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+}
+h3{
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+}
+#agreement{
+	font-size: 10px;
+	text-align: center;
+	line-height: 1.8;
+}
+}
