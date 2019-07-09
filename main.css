@@ -73,7 +73,7 @@ input[type=text], input[type=password] {
   background: transparent;
   border-color: lightgray;
   border-bottom: none;
-  
+  border-width: 2px;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -86,6 +86,9 @@ input::placeholder {
 }
 input:first-child{
   border-radius: 5px 5px 0px 0px;
+}
+input:last-child{
+  border-bottom-width: 0px;
 }
 /* Set a style for all buttons */
 button {
